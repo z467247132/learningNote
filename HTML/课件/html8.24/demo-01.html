@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title></title>
+		<style>
+			font{border:1px solid red; width:400px; height:50px; margin: 50px; padding: 50px;}
+			h1{ border: 1px solid red; width:400px; height:50px;  margin: 50px; padding: 50px;}
+		</style>
+	</head>
+	<body>
+		<font>这是一个文字标签</font>
+		<font>这是一个文字标签</font>
+		<font>这是一个文字标签</font>
+		
+		<h1>标题标签</h1>
+		<h1>标题标签</h1>
+		<h1>标题标签</h1>
+	<table>
+		<form name="form1" action="demo-01.html" method="get">
+			<!--用户名：<input name="username" type="text" value="1" /><br />-->
+			<tr>
+				<td>用户名：</td>
+				<td><input name="username1" type="text" value="123" size="40" maxlength="6" readonly="readonly"/></td>
+			</tr>
+			密码：<input name="password" type="password" /><br />
+			<!--这是定义一个单选按钮。必须确保name属性值一致-->
+			性别：<input type="radio" name="sex" value="female" id="sex" checked><label for="sex">女</label>
+			<label><input type="radio" name="sex" value="male" checked>男</label>
+			<input type="file" name="image" /><br />
+			爱好：<label><input type="checkbox" name="hobby" value="basketball" checked />篮球</label>
+			<label><input type="checkbox" name="hobby" value="football" checked/>足球</label>
+			<label><input type="checkbox" name="hobby" value="pingpang" />乒乓</label><br>
+			隐藏域：<input type="hidden" name="id" /><br>
+			<textarea cols="10" rows="4">这是一个文字域这是一个文字域这是一个文字域</textarea>
+			<select name="city">
+				<option value="cs">长沙</option>
+				<option value="xt" selected="selected">湘潭</option>
+				<option value="yy">岳阳</option>
+			</select>
+			<input type="image" src="html-05/user_register_btn.jpg" />
+			<input name="btn" type="button" value="按钮" onclick="alert('aaaa');"/>
+			<input name="btn" type="submit" value="提交" />
+			<input name="btn" type="reset" value="重置" />
+			<button type=""></button>
+		</form>
+	</table>	
+	</body>
+</html>

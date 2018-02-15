@@ -1,0 +1,10 @@
+1¡¢<table width="" height="" border="" bordercolor="" align="" bgcolor="" cellspacing="" cellpadding="" backgroud="">
+	<caption></caption>
+	<tr height="" align="" valign="" bordercolor="" bgcolor=""  >
+	<td width="" height="" bgcolor=""  border="" bordercolor="" align="" valign="" backgroud="" colspan="" rowspan="">
+	<table><tr><td></td></tr></table>
+</td>
+	<th>
+</th>
+</tr>
+</table>

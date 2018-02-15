@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>文本框获取值</title>
+		<script src="js/jquery-3.1.0.min.js" type="text/javascript" charset="utf-8"></script>
+		<script>
+			$().ready(function(){
+				$("#c").on("click",function(){
+					$("#b").val($("#a").val());
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<input id="a" type="text"  />
+		<input id="b" type="text"  />
+		<input type="button"  id="c" value="点击"/>
+	</body>
+</html>

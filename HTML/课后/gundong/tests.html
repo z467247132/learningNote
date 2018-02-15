@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript" src="/js/test.js?+Math.random()"></script> 
+		<script type="text/javascript">
+			window.onload = function(){
+				document.getElementById("b").onclick=function(){
+					document.getElementById("a").style.display="block";
+					Math.random();
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<div id="a" style="border: 1px black solid; height: 500px; width: 200px; display: none;">
+			
+		</div>
+		<input type="button" id="b" value="dasdas" />
+	</body>
+</html>

@@ -1,0 +1,295 @@
+body{
+	margin: 0px;
+}
+.all{
+	margin: 0px;
+}
+.heading{
+	width: 100%;
+	height:35px;
+	background-color: #f2f2f2;
+}
+.head{
+	width: 1240px;
+	height: 35px;
+	/*border: 1px solid red;*/
+	margin: 0px auto;
+	position: relative;
+}
+.head_left{
+	background-image: url(../img/logo1_1.jpg);
+	width: 135px;
+	height: 35px;
+	display: block;
+	float: left;
+}
+.head_left:hover{
+	background-image:url(../img/logo1_2.jpg);
+}
+.head_left2{
+	background-image: url(../img/logo2_1.jpg);
+	width: 135px;
+	height: 35px;
+	display: block;
+	float: left;
+}
+.head_left2:hover{
+	background-image: url(../img/logo2_2.jpg);
+}
+.right{
+	position: absolute;
+	right: 0px;
+	width:150px;
+	height: 35px;
+	/*border: 1px solid blue;*/
+	line-height: 35px;
+}
+.head_font{
+	display: inline-block;
+	font-size:small;
+	text-decoration: none;
+	color: black;
+}
+.head_font:hover{
+	font-weight: bold;
+}
+.head_shop{
+	display: inline-block;
+	width: 18px;
+	height: 23px;
+	background-image: url(../img/logo_shop.png);
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	position: relative;
+	top: 9px;
+}
+.head_shop:hover{
+	background-size: 21px auto;
+}
+.nav_bar{
+	width: 100%;
+	height: 40px;
+	background:  #414141;	
+	min-width: 1240px;
+}
+.nav{
+	margin: 0px auto;
+	width: 1240px;
+	height: 40px;
+	/*border: 1px solid blue;*/
+}
+.firstItem{
+/*	display: inline-block;*/
+	width: 117px;
+	height:40px;
+	text-decoration: none;
+	line-height: 40px;
+	text-align: center;
+	font-size: 14px;
+	color: white;
+	margin: 0px 32px 0px 0px;
+	float: left;
+}
+.otherItem{
+	/*display:inline-block;*/
+	width: 117px;
+	height:40px;
+	text-decoration: none;
+	line-height: 40px;
+	text-align: center;
+	font-size: 14px;
+	color: white;
+	margin: 0px 32px;
+	float: left;
+}
+.logo{
+	display: inline-block;
+	background-color: white;
+	background-image: url(../img/logo.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 80px;
+	width: 100%;
+	margin: 0px;
+	/*border: 1px solid red;*/
+}
+.shop{
+	margin: 0px auto;
+	width: 1240px;
+	height: 960px;
+	border-top: 4px solid #414141;
+	/*border-bottom: 2px solid #83847E;*/
+}
+.shop_head{
+	width: 962px;
+	height: 69px;
+	margin: 0px auto;
+	border-bottom: 1px solid #414141;
+}
+.shop_head_left{
+	color: #414141;
+    float: left;
+    font-size: 22px;
+    height: 70px;
+    line-height: 100px;
+    width: 800px;
+    font-weight: 700;
+}
+.shop_head_right{
+	width: 90px;
+	float: right;
+	color: #414141;
+	height: 70px;
+	line-height: 100px;
+	font-size: 14px;
+	font-family: "宋体";
+}
+.shop_mid{
+	margin: 0px auto;
+	border-bottom: 1px solid #414141;
+	border-collapse: collapse;
+    color: #414141;
+    font-size: 16px;
+    text-align: center;
+    width: 962px;
+}
+.shop_mid_title{
+	height: 30px;
+	line-height: 30px;
+	border-bottom: 1px solid #414141;
+}
+.commodity{
+	width: 280px;
+	height: 120px;
+	margin: 0px auto;
+	/*border: 1px solid blue;*/
+}
+.shop_mid_img{
+	display: block;
+    float: left;
+    height: 100px;
+    margin: 10px 15px 10px 10px;
+}
+.shop_mid_name{
+	display: table-cell;
+    padding-top: 40px;
+    text-align: left;
+}
+.num{
+	width: 68px;
+	height: 20px;
+	line-height: 20px;
+	margin: 0px 3px;
+	text-align: center;
+}
+.shop_bottom{
+	color: #414141;
+	font-size: 20px;
+	text-align: right;
+	width: 962px;
+	height: 40px;
+	line-height: 40px;
+	margin: 0 auto;
+}
+.buttom{
+	width: 962px;
+	height: 30px;
+	margin: 30px auto 20px auto;
+}
+.buttom a{
+	width: 100px;
+	height: 30px;
+	float: right;
+}
+.help{
+	width: 962px;
+	margin: 0px auto;
+}
+.help p{
+	font-size: 12px;
+}
+.help a{
+	font-family: "微软雅黑";
+	text-decoration: none;
+	font-size: 12px;
+}
+hr{
+	height:5px;
+	border:1px solid darkgray;
+	background-color:white;
+	margin-bottom: 40px;
+}
+.foot{
+	
+}
+.foot:hover{
+	opacity: 0.4;
+}
+.under{
+	/*border: 1px solid black;*/
+	width: 100%;
+	height: 180px;
+	margin-top:50px ;
+	position: relative;
+}
+.under_left{
+	height: 100%;
+	width:200px;
+	/*border: 1px solid blue;*/
+	float: left;
+}
+.under ul{
+	border-left: 1px solid gainsboro;
+	float: left;
+    margin-top: 0;
+    padding-left: 70px;
+    padding-right: 70px;
+    text-align: center;
+    list-style-type: none;
+}
+.under p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-top: 0;
+    font-weight: bold;
+    
+}
+.under li {
+	display: block;
+    color:gray;
+    font-family:"宋体";
+    font-size: small;
+    font-weight: 700;
+    line-height: 30px;
+    margin-left: 1px;
+    text-align: left;
+    
+}
+.under a{
+	text-decoration: none;
+	
+}
+.under_right{
+	position: absolute;
+	right: 0px;
+}
+.phone{
+	background-color: #f2f2f2;
+	width: 100%;
+	height: 45px;
+	min-width: 1240px;
+}
+.phone a{
+	display: block;
+	margin: 0px auto;
+	width: 122px;
+}
+.bottom{
+	width: 100%;
+	height: 45px;
+	line-height: 45px;
+	background-color: #414141;
+	text-align: center;
+	color: white;
+	min-width: 1240px;
+}

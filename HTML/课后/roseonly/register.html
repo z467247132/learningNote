@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/register.css"/>
+	</head>
+	<body>
+		<div class="all">
+			<div class="heading">
+				<div class="head">
+						<a class="head_left" href="#"></a>
+						<a class="head_left2" href="#"></a>
+						<div class="right">
+							<!--<a class="head_font" href="#">登录</a>|
+							<a class="head_font" href="#">注册</a>|
+							<a href="#"><img class="head_shop" title="购物车"/></a>-->
+						</div>
+				</div>
+			</div>
+			<div>
+				<a href="Main.html"><img class="logo"/></a>
+			</div>
+			<div class="nav_bar">
+				<div class="nav">
+					<a class="firstItem" href="#">鲜花玫瑰</a>
+					<a class="otherItem" href="#">永生玫瑰</a>
+					<a class="otherItem" href="#">玫瑰珠宝</a>
+					<a class="otherItem" href="#">生日推荐</a>
+					<a class="otherItem" href="#">love roseonly</a>
+					<a class="otherItem" href="#">专卖店</a>
+					<a class="otherItem" href="#">诺誓世界</a>
+				</div>
+			</div>
+			<div class="reg">
+				<form action="servlet/RegServlet" name="register" method="post">
+					<p class="p">账户基本信息</p>
+					<div>
+						<span>&nbsp;&nbsp;用&nbsp;户&nbsp;名：<input type="text" name="username" class="textborder"/></span>
+						<span>&nbsp;&nbsp;密&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;码：<input type="password" name="mypassword"class="textborder"/></span>
+						<span>确认密码：<input type="password" name="confirmpass"class="textborder"/></span>
+					</div>
+					<p class="p">个人基本信息</p>
+					<div>
+						<span>真实姓名：<input type="text" name="realname" class="textborder"/></span>
+						<span>出生年月：<input type="text" name="birthday"class="textborder"/></span>
+						<span>个人电话：<input type="text" name="phone"class="textborder"/></span>
+						<span>性别：
+							<label style="display: inline-block; width: 145px;text-align: right;"><input type="radio" name="sex" value="1"/>男</label>
+							<label style="display: inline-block; width: 140px;"><input type="radio" name="sex" value="0"/>女</label>
+						</span>
+						<span>
+							个人风格：
+							<label class="manner"><input type="checkbox" name="manner" value="1"/>浪漫</label>
+							<label class="manner"><input type="checkbox" name="manner" value="2"/>奔放</label>
+							<label class="manner"><input type="checkbox" name="manner" value="3"/>热情</label>
+							<label class="manner"><input type="checkbox" name="manner" value="4"/>高冷</label>
+						</span>
+						<span><input type="submit" value="确定" class="submit"/><input type="reset" value="重填" class="submit" style="background-color: rgb(65,65,65);"/></span>
+					</div>
+				</form>
+			</div>
+			<div class="under">
+					<div class="under_left">
+						<a href="#" style="display:block;margin-bottom: 20px;"><img src="img/under1.png" /></a>
+						关注我们<a href="#" style="margin:0px 20px;"><img src="img/under2.png"/></a>
+								<a href="#"><img src="img/under3.png"/></a>
+					</div>			
+					<ul style="border: none;">
+						<p>新手指南</p>
+						<a href="#"><li>购物流程</li></a>
+						<a href="#"><li>支付方式</li></a>
+						<a href="#"><li>常见问题</li></a>
+					</ul>
+					<ul>
+						<p>售后服务</p>
+						<a href="#"><li>退货政策</li></a>
+						<a href="#"><li>退货流程</li></a>
+						<a href="#"><li>退款说明</li></a>
+					</ul>
+					<ul>
+						<p>物流配送 </p>
+						<a href="#"><li>配送方式</li></a>
+						<a href="#"><li>配送服务</li></a>
+						<a href="#"><li>物流跟踪</li></a>
+					</ul>
+					<ul>
+						<p>关于我们 </p>
+						<a href="#"><li>联系我们</li></a>
+						<a href="#"><li>加入我们</li></a>
+						<li>&nbsp;</li>
+					</ul>
+					<div class="under_right">
+						<img src="img/14652903743497300.jpg"/>
+					</div>					
+				</div>	
+			</div>
+			<div class="phone">
+					<a><img src="img/phone.jpg"/></a>
+			</div>
+			<div class="bottom">
+				京ICP备13007738号 京公网安备11010502023922 www.roseonly.com.cn；诺誓（北京）商业股份有限公司
+			</div>
+		</div>	
+	</body>
+</html>

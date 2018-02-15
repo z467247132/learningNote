@@ -1,0 +1,183 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+.all{
+	margin: 200px auto 0px auto;
+	width: 800px;
+	/*border: 1px solid red;*/
+	height: 340px;
+	min-width: 800px;
+		background-color: #dcdcdc;
+}
+.top{
+	width: 100%;
+	height: 37px;
+	position: relative;
+	/*border: 1px solid black;*/
+}
+.title{
+	width: 127px;
+	height: 27px;
+	background-image: url(../img/pinzhishenghuojia.png);
+	background-position: -50px -685px;
+	position: absolute;
+	top: 5px;
+	left: 350px;
+	/*border: 1px solid black;*/
+}
+.more{
+	display: inline-block;
+	color: black;
+	text-decoration: none;
+	width: 80px;
+	height: 20px;
+	font-weight: bold;
+	line-height: 20px;
+	text-align: center;
+	font-size: 12px;
+	border-radius: 20px;
+	/*border: 1px solid black;*/
+	background-color: white;
+	position: absolute;
+	top:9px;
+	right: 20px;
+}
+.container{
+	display: inline-block;
+	height: 301px;
+	width: 254px;
+	/*border: 1px solid red;*/
+	margin: 0px 5px;
+	float: left;
+	background-color: white;
+}
+.left_top{
+	width: 100%;
+	height: 40px;
+	color: orangered;
+	line-height: 40px;
+	text-align: center;
+	font-weight: 700;
+	border-bottom: 1px solid gainsboro;
+}
+.left_mid{
+	height: 190px;
+	border-bottom: 1px solid gainsboro;
+}
+.left_mid_left{
+	float: left;
+	display: inline-block;
+	width: 120px;
+	height: 175px;
+	padding: 5px;
+	/*border: 1px solid black;*/
+	text-align: center;
+}
+.left_mid_right{
+	float: left;
+	display: inline-block;
+	width: 120px;
+	height: 180px;
+	/*padding: 10px;*/
+	/*border: 1px solid black;*/
+	text-align: center;
+	padding-top: 5px;
+	float: left;
+}
+.left_bottom{
+	height: 72px;
+}
+.left_bottom td{
+	/*border: 1px solid black;*/
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	width: 85px;
+}
+.mid_top{
+	width: 100%;
+	height: 40px;
+	font-weight: 700;
+	border-bottom: 1px solid gainsboro;
+	position: relative;
+}
+.mid_top img{
+	width: 80px;
+	height: 18px;
+	position: absolute;
+	top: 10px;
+	left: 90px;
+}
+.mid_main{
+	padding: 10px 0px 10px 20px;
+	/*border: 1px solid black;*/
+	width: 105px;
+	height: 105px;
+	float: left;
+}
+.mid_main_inside{
+	width: 100px;
+	height: 100px;
+	/*border: 1px solid red;*/
+	position: relative;
+}
+.mid_main_inside img{
+	width: 100px;
+	height: 100px;
+	z-index: 10;
+}
+.in{
+	width: 100px;
+	height: 20px;
+	background-color: rgba(255,255,255,0.4);
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	z-index: 200;
+	text-align: center;
+}
+.right_top{
+	width: 100%;
+	height: 40px;
+	text-spacing: 100px;
+	color: plum;
+	line-height: 40px;
+	text-align: center;
+	font-weight: 700;
+	border-bottom: 1px solid gainsboro;
+}
+.right_mid{
+	height: 190px;
+	border-bottom: 1px solid gainsboro;
+}
+.right_mid_left{
+	float: left;
+	display: inline-block;
+	width: 120px;
+	height: 175px;
+	padding: 5px;
+	/*border: 1px solid black;*/
+	text-align: center;
+}
+.right_mid_right{
+	float: left;
+	display: inline-block;
+	width: 120px;
+	height: 180px;
+	/*padding: 10px;*/
+	/*border: 1px solid black;*/
+	text-align: center;
+	padding-top: 5px;
+	float: left;
+}
+.right_bottom{
+	height: 72px;
+}
+.right_bottom td{
+	/*border: 1px solid black;*/
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	width: 85px;
+}

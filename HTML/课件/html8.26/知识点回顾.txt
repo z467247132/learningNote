@@ -1,0 +1,14 @@
+一、测试点评
+二、知识点回顾
+css概念、作用、优势、发展历史
+css的引入方式：内联样式<p style="color:red;"></p>
+	内部样式：<head><style type="text/css">p{color:red;}</style></head>
+	引入外部样式：<link href="" type="text/css" rel="stylesheet"/>
+
+选择器：
+	标记选择器 p{}
+<p class="top bottom"></p>
+	类选择器：.top{} p.top{}
+
+文字的常用属性的设置：
+	font-size: color: font-family: font-style: font-weight:

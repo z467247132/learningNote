@@ -1,0 +1,25 @@
+常用的标签
+<a href="#"  target="_blank/_self" title=""></a>
+站内链接
+站外链接
+空链接
+锚点链接
+定义锚点<a name="top"></a>
+链接到锚点<a href="#top">链接到锚点</a>
+
+<img src="" height="" width="" title="" alt=""/>
+
+<ul type="" ><li></li></ul>
+<ol type="" start=""><li></li></ol>
+<dl><dt></dt><dd></dd></dl>
+
+<strong></strong>  <em></em>
+
+<q></q>  <blockquote></blockquote>
+
+<hr size="" width="" color="" align="" noshade/>
+
+<p>&lt;p&gt; &nbsp; &copy;
+
+
+
