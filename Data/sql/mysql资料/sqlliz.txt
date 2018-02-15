@@ -1,0 +1,37 @@
+
+#dml语句
+SELECT * FROM stutent;
+#新增语句
+INSERT INTO stutent(NAME,address,school,DATETIME)
+VALUES(
+'王五',
+'长沙市岳麓区2',
+'长沙理工2',
+NOW()
+);
+SELECT * FROM stutenthis;
+INSERT INTO stutenthis(NAME,address,school,DATETIME)
+VALUES(
+'王小二',
+'长沙市岳麓区2',
+'长沙理工2',
+NOW()
+);
+#从别的表插入
+INSERT stutent (NAME,address,school,DATETIME)
+SELECT NAME,address,school,DATETIME FROM stutenthis;
+#创建临时表
+CREATE TABLE stutent3 AS SELECT * FROM stutent;
+
+SELECT * FROM stutent3;
+
+#更新语句
+UPDATE stutent SET address='长沙市芙蓉区',school='国防科技大学' WHERE id = 3;
+#删除语句
+DELETE FROM stutent WHERE id = 4;
+#查询语句
+SELECT id,NAME,address,school,DATETIME FROM stutent WHERE id = 1 AND NAME='张三' AND .......;
+
+#ddl
+ALTER TABLE stutent ADD COLUMN bak VARCHAR(100);
+
